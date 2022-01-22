@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "allowJs": true,
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "ESNext"
+  },
+  "include": [ "**/*.ts" ]
+}

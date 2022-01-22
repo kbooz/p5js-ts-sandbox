@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply h-full;
+}
+
+body {
+    @apply bg-black flex flex-col items-stretch;
+}
+
+#project {
+    background: #222;
+    @apply text-white;
+}
+
+#project-container {
+    @apply flex flex-col items-center justify-center flex-1;
+}
+
+#project-container canvas {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,.3);
+}
